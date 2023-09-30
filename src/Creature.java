@@ -63,8 +63,4 @@ public class Creature {
             defender.setHealth(defender.getHealth() - damage);
         }
     }
-
-    public void attack(Creature monster) {
-
-    }
 }

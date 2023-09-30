@@ -6,11 +6,11 @@ public class Main {
         System.out.println("Player's initial health: " + player.getHealth());
         System.out.println("Monster's initial health: " + monster.getHealth());
 
-        player.attack(monster);
+        player.attackCreature(monster);
         System.out.println("Player attacks monster!");
         System.out.println("Monster's health after attack: " + monster.getHealth());
 
-        monster.attack(player);
+        monster.attackCreature(player);
         System.out.println("Monster attacks player!");
         System.out.println("Player's health after attack: " + player.getHealth());
     }
